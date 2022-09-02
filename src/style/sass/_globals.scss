@@ -1,0 +1,55 @@
+// Main Variables
+
+$enFont: "Roboto", sans-serif;
+$grad1: #000000;
+$grad2: #434343;
+$mainBgColor: #2b2c2f;
+$secBgColor: #212121;
+$mainColor: #667db6;
+$secColor: #ff6369;
+
+// Mixins
+
+@mixin TransEIO($d) {
+    -webkit-transition: all ease-in-out $d;
+    -moz-transition: all ease-in-out $d;
+    -o-transition: all ease-in-out $d;
+    -ms-transition: all ease-in-out $d;
+    transition: all ease-in-out $d;
+  }
+  @mixin transform($val) {
+    -webkit-transform: $val;
+    -moz-transform: $val;
+    -o-transform: $val;
+    -ms-transform: $val;
+    transform: $val;
+  }
+  
+  @mixin animation($val) {
+    -webkit-animation: $val;
+    -moz-animation: $val;
+    -o-animation: $val;
+    -ms-animation: $val;
+    animation: $val;
+  }
+
+  @mixin myBtn {
+    background-color: $mainColor;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  %grad {
+    background: $grad1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      45deg,
+      $grad2,
+      $grad1
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      45deg,
+      $grad2,
+      $grad1
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }

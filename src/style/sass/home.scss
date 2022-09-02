@@ -1,0 +1,30 @@
+@use 'globals';
+
+.main-home {
+    .text-side {
+        margin-top: 8em;
+
+        h2 {
+          font-size: 3.5em;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 18px;
+        }
+        .btn-wrapper {
+          margin-top: 1.5em;
+          a.home-btn {
+            @include globals.myBtn;
+            margin-right: 10px;
+          }
+          a:hover {
+            color: #fff;
+          }
+        }
+      }
+      .img-side {
+        text-align: center;
+        display: flex;
+        justify-content: end;
+      }
+}

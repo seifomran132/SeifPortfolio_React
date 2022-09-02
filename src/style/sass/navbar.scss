@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    padding: 2em 0;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        width: 20%;
+        h2 {
+            margin: 0;
+        }
+      }
+      .main-menu-container {
+        ul {
+          display: flex;
+          line-height: 50px;
+          li {
+            padding: 0 20px;
+          }
+          
+        }
+      }
+  }
