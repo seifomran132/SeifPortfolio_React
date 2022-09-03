@@ -1,15 +1,20 @@
 @use 'globals';
 
-.main-home {
+.home-screen {
+  
+
+  .main-home {
+    padding-bottom: 5em;
     .text-side {
         margin-top: 8em;
 
         h2 {
           font-size: 3.5em;
-          margin-bottom: 15px;
+          margin-bottom: 30px;
         }
         p {
           font-size: 18px;
+          margin-bottom: 30px;
         }
         .btn-wrapper {
           margin-top: 1.5em;
@@ -26,5 +31,9 @@
         text-align: center;
         display: flex;
         justify-content: end;
+        #animation {
+          width: 80%;
       }
+      }
+}
 }

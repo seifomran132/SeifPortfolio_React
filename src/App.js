@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './screens/Home';
 import './style/css/app.css'
 import './style/bootstrap/css/bootstrap-grid.min.css'
+import './style/bootstrap/css/bootstrap.min.css'
 
 
 function App(props) {
