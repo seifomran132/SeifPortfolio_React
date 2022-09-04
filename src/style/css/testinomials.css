@@ -1,0 +1,47 @@
+#testinomials {
+  text-align: center;
+  margin-bottom: 5em;
+}
+#testinomials h2 {
+  padding: 0;
+}
+#testinomials .testinomials-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+#testinomials .testinomials-container .testinomials-wrapper {
+  width: 50%;
+}
+#testinomials .testinomials-container .testinomial {
+  display: none;
+  margin: 3em 0;
+}
+#testinomials .testinomials-container .testinomial blockquote {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+#testinomials .testinomials-container .testinomial blockquote::before {
+  content: open-quote;
+  font-size: 2em;
+}
+#testinomials .testinomials-container .testinomial blockquote::after {
+  content: close-quote;
+  font-size: 2em;
+}
+#testinomials .testinomials-container #left-arrow,
+#testinomials .testinomials-container #right-arrow {
+  display: flex;
+  align-items: center;
+}
+#testinomials .testinomials-container #left-arrow svg,
+#testinomials .testinomials-container #right-arrow svg {
+  width: 30px;
+  height: 30px;
+}
+#testinomials .active {
+  display: block !important;
+}
+
+/*# sourceMappingURL=testinomials.css.map */

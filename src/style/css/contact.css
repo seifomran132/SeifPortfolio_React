@@ -1,0 +1,58 @@
+#contact .contact-us .left h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+#contact .contact-us .left p {
+  text-align: justify;
+  margin-bottom: 2em;
+}
+#contact .contact-us .left ul.info li {
+  padding: 10px 0;
+}
+#contact .contact-us .left ul.info li svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+#contact .contact-us .left ul.info li span {
+  line-height: 25px;
+}
+#contact .contact-us .left .social-media {
+  margin-top: 2em;
+}
+#contact .contact-us .left .social-media a {
+  padding: 0 5px;
+}
+#contact .contact-us .left .social-media a svg {
+  width: 20px;
+  height: 20px;
+}
+#contact .contact-us .right {
+  padding: 0 4em;
+}
+#contact .contact-us .right h3 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+#contact .contact-us .right input,
+#contact .contact-us .right textarea {
+  width: 99%;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  background-color: #252525;
+  color: #fff;
+}
+#contact .contact-us .right input[name=name],
+#contact .contact-us .right input[name=email] {
+  width: 49%;
+}
+#contact .contact-us .right input[name=submit] {
+  background-color: #667db6;
+  width: auto;
+  padding: 10px 30px;
+}
+
+/*# sourceMappingURL=contact.css.map */

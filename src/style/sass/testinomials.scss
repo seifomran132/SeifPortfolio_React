@@ -1,0 +1,45 @@
+#testinomials {
+    text-align: center;
+    margin-bottom: 5em;
+    h2 {
+      padding: 0;
+    }
+    .testinomials-container {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      .testinomials-wrapper {
+        width: 50%;
+    }
+      .testinomial {
+        display: none;
+        margin: 3em 0;
+        blockquote {
+          font-size: 20px;
+          font-weight: bold;
+          margin: 0;
+          &::before {
+            content: open-quote;
+            font-size: 2em;
+          }
+          &::after {
+            content: close-quote;
+            font-size: 2em;
+          }
+        }
+      }
+      #left-arrow,
+      #right-arrow {
+        display: flex;
+        align-items: center;
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    .active {
+      display: block !important;
+    }
+  }

@@ -40,5 +40,11 @@ body a:hover {
   padding-bottom: 2em;
   font-weight: bold;
 }
+.main-wrapper footer .credit {
+  margin: 0;
+  padding: 5em 0 2em 0;
+  text-align: center;
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=app.css.map */
