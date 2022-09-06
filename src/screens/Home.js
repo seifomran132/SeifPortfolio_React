@@ -13,7 +13,7 @@ function Home(props) {
   return (
     <div className="home-screen">
       <div className="container">
-        <Nav></Nav>
+        <Nav active='home'></Nav>
         <HomeInfo />
       </div>
       <About />
@@ -22,7 +22,7 @@ function Home(props) {
       <Contact/>
       <footer>
         
-        <p class="credit">All rights reserved Seif.work &copy; {myDate.getFullYear()}</p>
+        <p className="credit">All rights reserved Seif.work &copy; {myDate.getFullYear()}</p>
       </footer>
     </div>
   );

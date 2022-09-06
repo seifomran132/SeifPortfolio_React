@@ -17,5 +17,11 @@ nav .main-menu-container ul {
 nav .main-menu-container ul li {
   padding: 0 20px;
 }
+nav .main-menu-container ul a.active-nav {
+  background-color: #fff;
+  padding: 5px 10px;
+  color: #667db6;
+  border-radius: 5px;
+}
 
 /*# sourceMappingURL=navbar.css.map */

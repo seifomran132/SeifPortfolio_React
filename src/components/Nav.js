@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import '../style/css/navbar.css'
 
 function Nav(props) {
@@ -13,19 +13,19 @@ function Nav(props) {
       <div className="main-menu-container">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" className={({isActive})=>(isActive ? 'active-nav' : '')}>Home</NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink to="/about" className={({isActive})=>(isActive ? 'active-nav' : '')}>About</NavLink>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <NavLink to="/projects" className={({isActive})=>(isActive ? 'active-nav' : '')}>Projects</NavLink>
           </li>
           <li>
-            <Link to="/testinomials">Testinomials</Link>
+            <NavLink to="/testinomials" className={({isActive})=>(isActive ? 'active-nav' : '')}>Testinomials</NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact" className={({isActive})=>(isActive ? 'active-nav' : '')}>Contact</NavLink>
           </li>
         </ul>
       </div>
